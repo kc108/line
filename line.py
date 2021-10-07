@@ -91,7 +91,7 @@ if __name__ == '__main__':
 # import module that defines unit-testing framework
 import unittest
 
-# import module project2.py containing functions to test
+# import module containing functions to test
 import line
 
 class LineTest(unittest.TestCase):
@@ -112,3 +112,4 @@ class LineTest(unittest.TestCase):
 # run the unit tests
 if __name__ == '__main__':
     unittest.main(verbosity=2)
+
